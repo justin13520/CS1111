@@ -1,0 +1,20 @@
+import turtle
+mitch = turtle.Turtle()
+franklin = turtle.Turtle()
+turtle.speed(0)
+mitch.shape('turtle')
+mitch.color('green')
+mitch.pensize(4)
+mitch.forward(100)
+mitch.left(90)
+mitch.up()
+mitch.forward(100)
+mitch.right(90)
+mitch.color('blue')
+mitch.down()
+mitch.forward(100)
+#initial position is center and facing right
+while True :
+    mitch.forward(2)
+    mitch.left(4)
+turtle.done()
